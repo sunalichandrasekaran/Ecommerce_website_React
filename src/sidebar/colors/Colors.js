@@ -32,11 +32,17 @@ const Colors = ({ handleChange }) => {
           name="test3"
           color="red"
         />
+        <Inputs
+          handleChange={handleChange}
+          value="green"
+          title="Green"
+          name="test3"
+          color="green"
+        />
         <label className="sidebar-label-container">
-          <Inputs
+          <input
             handleChange={handleChange}
-            value="green"
-            title="Green"
+            value="white"
             name="test3"
             type="radio"
           />

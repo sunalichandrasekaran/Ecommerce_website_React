@@ -14,7 +14,7 @@ function App() {
 
   //function
   function handleInputChange(e) {
-    return e.target.value;
+    setQuery(e.target.value);
   }
 
   const filteredItems = products.filter(
