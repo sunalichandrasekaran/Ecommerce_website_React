@@ -20,8 +20,8 @@ function Categories({ handleChange }) {
           />
           <Inputs
             handleChange={handleChange}
-            value="falts"
-            title="Falts"
+            value="flats"
+            title="Flats"
             name="test"
           />
           <Inputs
