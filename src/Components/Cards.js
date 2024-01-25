@@ -1,12 +1,13 @@
 import React from "react";
 import { BsFillBagHeartFill } from "react-icons/bs";
+import "./Cards.css";
 
 const Cards = ({ img, title, star, reviews, prePrice, newPrice }) => {
   return (
-    <section className="card">
-      <img className="card_img" src={img} alt={title} />
+    <section className="card_container">
+      <img className="img_card" src={img} alt={title} />
       <div className="card-details">
-        <h3 className="card-title">{title}</h3>
+        <h3 className="card_title">{title}</h3>
         <section className="card-reviews">
           {star} {star}
           {star}

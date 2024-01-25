@@ -1,0 +1,19 @@
+.img_card {
+  height: 50px;
+  width: 150px;
+  object-fit: contain;
+}
+.card_container {
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+  height: 210px;
+  width: 205px;
+}
+.card_title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 45px;
+  display: flex;
+}
